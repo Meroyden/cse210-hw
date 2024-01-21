@@ -7,6 +7,6 @@ public class Resume
    public void AddJob(Job jobjob)
    {
         _jobs.Add(jobjob);
-   }
+   } 
 
 }
