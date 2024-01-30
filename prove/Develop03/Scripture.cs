@@ -12,7 +12,7 @@ public class Scripture{
     public void splitScripture(){
         string[] scriptureArray=fullScripture.Split(" ");
         foreach(string wordstuff in scriptureArray){
-            Word.FillThing(wordstuff);
+           // Word.FillThing(wordstuff);
         }
     }
 
