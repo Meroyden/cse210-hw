@@ -1,3 +1,5 @@
+using System.Drawing;
+
 public class Word{
     
 
@@ -7,6 +9,7 @@ public class Word{
     private int length;
     private bool hide;  
     public void FillThing(string full){
-
+        full=_wordText;
     }
+    
 }
