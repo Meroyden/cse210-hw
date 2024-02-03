@@ -5,7 +5,7 @@ public class BreathingActivity
     
     public BreathingActivity(string time){
         _time=Int16.Parse(time);
-        _time*=100;
+        _time*=60;
     }
     public void aBegin(){
         DateTime currentTime = DateTime.Now;
@@ -13,8 +13,7 @@ public class BreathingActivity
         DateTime futureTime = startTime.AddSeconds(_time);
         while(futureTime>currentTime){
             Console.Clear();
-            Console.WriteLine(currentTime);
-            Console.WriteLine(futureTime);
+
             Console.WriteLine("Breath in.\n");
             Console.WriteLine("3");
             Thread.Sleep(1500);

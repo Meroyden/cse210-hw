@@ -17,7 +17,7 @@ class Program
         Console.WriteLine("4:Quit");
         string readen=Console.ReadLine();
 
-        Console.WriteLine("How long do you want to do it for(seconds)?");
+        Console.WriteLine("How long do you want to do it for(minutes)?");
         string timeIn=Console.ReadLine();
 
         //if (readen=="1"){_activity="Breathing";}
