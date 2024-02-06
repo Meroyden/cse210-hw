@@ -19,9 +19,9 @@ public class ReflectingActivity
    
 
 
-        private string[] _prompts={_prompt1, _prompt2,_prompt3,_prompt4};
+        //private string[] _prompts={_prompt1, _prompt2,_prompt3,_prompt4};
         private Random _random=new();
-        _random=_prompts.next();
+        //_random=_prompts.next();
         private string whatever;
 
 
@@ -40,10 +40,10 @@ public class ReflectingActivity
     private List<int> numbers = new() {1,2,3,4,5,6,7,8,9};
 
     Random r = new Random();
-    int rInt = r.Next(0, 9);
+   // int rInt = r.Next(0, 9);
 
     private Random _random2=new();
-        _random2=_thoughts.next();
+  //      _random2=_thoughts.next();
 
 
     public void aBegin(){
